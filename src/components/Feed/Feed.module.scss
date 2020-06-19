@@ -1,6 +1,10 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
+.link-description{
+  color:#000;
+}
+
 .feed {
   &__item {
     @include margin-bottom(1.25);
@@ -32,6 +36,14 @@
       font-size: $typographic-base-font-size;
       @include line-height(1);
       @include margin-bottom(.75);
+    }
+
+    &-description-link {
+      font-size: $typographic-base-font-size;
+      @include line-height(1);
+      @include margin-bottom(.75);
+      color: black;
+
     }
 
     &-meta {

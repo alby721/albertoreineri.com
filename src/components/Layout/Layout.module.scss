@@ -4,3 +4,15 @@
 .layout {
     lost-center: $layout-width;
 }
+.please_be_good{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    a{
+        color:#F7A046;
+    }
+}

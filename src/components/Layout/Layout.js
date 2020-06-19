@@ -5,12 +5,14 @@ import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
+import CookieConsent from 'react-cookie-consent';
+
 
 type Props = {
   children: ReactNode,
   title: string,
   description?: string,
-  socialImage? :string
+  socialImage?: string
 };
 
 const Layout = ({
@@ -36,7 +38,17 @@ const Layout = ({
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
       </Helmet>
+      <div className={styles.please_be_good}>
+      Please forgive my writing mistakes, I'm not a native English speaker... If you find a mistake and want to report it to <a href="mailto:hello@albertoreineri.it">hello@albertoreineri.com </a> I will be grateful to you!
+      </div>
       {children}
+      <CookieConsent
+        location="bottom"
+        buttonText="Accept"
+        declineButtonText="Decline"
+        cookieName="gatsby-gdpr-google-analytics">
+        This website uses cookies 🍪🍪🍪
+</CookieConsent>
     </div>
   );
 };
