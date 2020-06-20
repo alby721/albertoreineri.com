@@ -39,7 +39,7 @@ const Layout = ({
         <meta name="twitter:image" content={metaImageUrl} />
       </Helmet>
       <div className={styles.please_be_good}>
-      Please forgive my writing mistakes, I'm not a native English speaker... If you find a mistake and want to report it to <a href="mailto:hello@albertoreineri.it">info@albertoreineri.it </a> I will be grateful to you!
+      Please forgive my writing mistakes, I'm not a native English speaker... If you find a mistake and want to report it to <a href="mailto:info@albertoreineri.it">info@albertoreineri.it </a> I will be grateful to you!
       </div>
       {children}
       <CookieConsent

@@ -6,7 +6,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+        trackingId: "UA-131500527-17",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false,
         // Setting this parameter is optional
@@ -18,35 +18,26 @@ module.exports = {
         // Delays sending pageview hits on route update (in milliseconds)
         pageTransitionDelay: 0,
         // Enables Google Optimize using your container Id
-        optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+        //optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
         // Enables Google Optimize Experiment ID
-        experimentId: "YOUR_GOOGLE_EXPERIMENT_ID",
+        //experimentId: "YOUR_GOOGLE_EXPERIMENT_ID",
         // Set Variation ID. 0 for original 1,2,3....
-        variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
+        //variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
         // Defers execution of google analytics script after page load
         defer: false,
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "example.com",
+        cookieDomain: "albertoreineri.netlify.app",
       },
     },
     {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID', // leave empty if you want to disable the tracker
+          trackingId: 'UA-131500527-17', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-analytics', // default
           anonymize: true // default
-        },
-        googleTagManager: {
-          trackingId: 'YOUR_GOOGLE_TAG_MANAGER_TRACKING_ID', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-tagmanager', // default
-          dataLayerName: 'dataLayer', // default
-        },
-        facebookPixel: {
-          pixelId: 'YOUR_FACEBOOK_PIXEL_ID', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-facebook-pixel', // default
         },
         // defines the environments where the tracking should be available  - default is ["production"]
         environments: ['production', 'development']

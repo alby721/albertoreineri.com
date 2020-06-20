@@ -4,7 +4,7 @@ template: "page"
 socialImage: "/media/image-4.jpg"
 ---
 
-Email me at [info@albertoreineri.it](mailto:hello@albertoreineri.it) if you like to talk to me.  
+Email me at [info@albertoreineri.it](mailto:info@albertoreineri.it) if you like to talk to me.  
 I will reply shortly.
 
 ## Around the web
