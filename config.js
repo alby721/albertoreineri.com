@@ -8,9 +8,10 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: "UA-131500527-17",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
+        head: true
+        ,
         // Setting this parameter is optional
-        anonymize: true,
+        anonymize: false,
         // Setting this parameter is also optional
         respectDNT: true,
         // Avoids sending pageview hits from custom paths
@@ -47,7 +48,7 @@ module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
   title: 'Blog by Alberto Reineri',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: 'Web Developer based in Cuneo - Italy. I love coding 💻, learning 📚, cycling 🚲 and sleeping 😂',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,

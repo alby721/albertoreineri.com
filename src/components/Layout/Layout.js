@@ -37,6 +37,18 @@ const Layout = ({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131500527-17"></script>
+<script>
+  {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){
+  dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131500527-17');
+  `}
+</script>
+
       </Helmet>
       <div className={styles.please_be_good}>
       Please forgive my writing mistakes, I'm not a native English speaker... If you find a mistake and want to report it to <a href="mailto:info@albertoreineri.it">info@albertoreineri.it </a> I will be grateful to you!
