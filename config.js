@@ -82,7 +82,7 @@ module.exports = {
     bio: 'Web Developer based in Cuneo - Italy. I love coding 💻, learning 📚, cycling 🚲 and sleeping 😂',
     contacts: {
       github: 'alby721',
-      email: 'hello@albertoreineri.com',
+      email: 'info@albertoreineri.it',
       facebook: '/alberto.reineri',
       telegram: '',
       twitter: 'ReineriAlberto',
