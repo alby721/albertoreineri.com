@@ -1,6 +1,21 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
+pre{
+  background-color: #444;
+  color:#fff;
+  margin: 0;
+  padding: 0;
+}
+code{
+  padding: 0;
+  margin: 0;
+}
+
+.language-text{
+  background-color: #444;
+  color:#fff
+}
 .post {
   &__footer {
     max-width: $layout-post-width;

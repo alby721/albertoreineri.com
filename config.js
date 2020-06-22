@@ -41,7 +41,7 @@ module.exports = {
           anonymize: true // default
         },
         // defines the environments where the tracking should be available  - default is ["production"]
-        environments: ['production', 'development']
+        environments: ['development']
       },
     },
   ],
